@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="6dp"
     android:layout_gravity="center"
-    android:background="#8A1538">
+    android:background="@color/Qatar">
 
     <ProgressBar
         android:layout_marginTop="320dp"

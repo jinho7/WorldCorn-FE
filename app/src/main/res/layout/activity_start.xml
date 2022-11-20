@@ -8,13 +8,46 @@
 
     <View
         android:id="@+id/image_3"
-        android:layout_width="800dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
-        android:layout_marginRight="411dp"
+        android:layout_marginLeft="-800dp"
+        android:layout_marginRight="-330dp"
+        android:layout_marginBottom="-20dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="-47dp"
         android:background="@drawable/start"
         />
+
+    <TextView
+        android:id="@+id/start_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumsquare"
+        android:text="2022 \n카타르 월드컵 \n승부 예측을 \n시작해보세요!"
+        android:textColor="@color/white"
+        android:lineSpacingExtra ="15dp"
+        android:textSize="55sp"
+        android:paddingLeft="30dp"
+        android:paddingTop="70dp"
+        android:bufferType="spannable"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:lineSpacingExtra="5dp"
+        android:text="click>"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:paddingLeft="330dp"
+        android:paddingTop="720dp"/>
+
+    <Button
+        android:id="@+id/click_bt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ff0000"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
